@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "JackPortNvc";
+    src:
+      url("./fonts/JackportCollegeNcv-1MZe.ttf") format("opentype") tech(color-COLRv1)
+  }
+@font-face {
+    font-family: "Bronzier";
+    src: url("./fonts/Bronzier-Medium.ttf") format("truetype");
+}
+  
+
+html {
+    font-family: "Bronzier";
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,121,9,1) 35%, rgba(255,253,0,1) 100%);
+    color: white;
+}
+
+header, #about, #streaming, #sponsors, footer{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+h1, h4 {
+    text-align:  center;
+}
+
+video {
+    display: block;
+    margin: auto;
+}
+
+img {
+    width: 40%;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 16.67%;
+    padding: 5px;
+  }
